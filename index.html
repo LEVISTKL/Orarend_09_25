@@ -8,10 +8,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>órarend</title>
     <style>
+        .IKT{
+            background-color: green;
+        }
+        .Angol{
+            background-color:  rgb(155, 155, 155);
+        }
+        .Webprog{
+            background-color: yellowgreen;
+        }
+        .Tesi{
+            background-color: rgb(255, 196, 0);
+        }
+        .Matek{
+            background-color: blue;
+        }
+        .Tori{
+            background-color: burlywood;
+        }
+        .Oszifo{
+            background-color: cadetblue;
+        }
+        .Asztalialk{
+            background-color: rgb(0, 199, 43);;
+        }
+        .Magyar{
+            background-color: brown;
+        }
+        .Adatbase{
+            background-color: rgb(70, 85, 47);
+        }
+        .Szoftver{
+            background-color: rgb(0, 255, 0);
+        }
         table{
             background-color: rgb(70, 70, 70);
-            width: 100%;
-            padding: 15px;
+            width: auto;
+            padding: 20px;
+            margin: 100px;
         }
         td{
             border: rgb(255, 174, 0) solid 2px;
@@ -23,16 +57,22 @@
         th,td{
             text-align: center;
             color:rgb(243, 243, 243);
-            text-shadow: black 1px 1px;
+            text-shadow: black 2px 2px 2px;
+            
             
         }
+        td:hover{
+            position: relative;
+            top: -5px;
+        }
+
     </style>
 </head>
 <body style="background-color: rgb(20, 20, 20); border-radius: 2px;">
   
     <table style="box-shadow: rgba(0, 0, 0, 0.447) 2px 2px; border-radius: 2px;">
         <tr>
-            <th colspan="6" ><h2>Nagy Levente Ferenc órarend</h2></th>
+            <th colspan="6" ><h2>Nagy Levente Ferenc órarend<img src="./kep01.png" alt="kep" height="50px" width="50px" style="position: relative;left: 25px; top:15px;"></h2></th>
           </tr>
         <tr>
           <th></th>
@@ -44,23 +84,23 @@
         </tr>
         <tr>
           <td>0. Óra<br> 7:15-8:00</td>
-        <td>
+        <td class="IKT" >
         IKT projectmunka II.<br>
         203<br>
         Paár Norbert
         </td>
-          <td></td>
-          <td>
+        <td></td>
+        <td class="Tesi">
         Testnevelés<br>
         tornaterem<br>
         Nagy Tibor
         </td>
-        <td>
+        <td class="Matek">
         Matematika<br>
         103<br>
         Dr Takácsné menyhért Éva Judit
         </td>
-        <td>
+        <td class="Tori">
         Történelem<br>
         103<br>
         Takács Gábor
@@ -70,131 +110,131 @@
             1. Óra<br>
             8:00-8:45
             </td>
-            <td>
+            <td class="IKT">
             IKT projectmunka II.<br>
             203<br>
             Paár Norbert
             </td>
-          <td>Webprogramozás <br>
+          <td class="Webprog">Webprogramozás <br>
               203<br>
               Németh Bence
           </td>
-          <td>Testnevelés<br>
+          <td class="Tesi">Testnevelés<br>
               tornaterem<br>
               Nagy Tibor
           </td>
-          <td>Matematika<br>
+          <td class="Matek">Matematika<br>
               103<br>
               Dr Takácsné menyhért Éva Judit
           </td>
-          <td>Angol nyelv<br>
+          <td class="Angol">Angol nyelv<br>
               102<br>
               Almásiné Jobbágy Nóra Katalin
           </td>
         </tr>
         <tr>
             <td>2. Óra<br> 8:55-9:40</td>
-            <td>IKT projectmunka II.<br>
+            <td class="IKT">IKT projectmunka II.<br>
                 203<br>
                 Paár Norbert
             </td>
-            <td>Webprogramozás<br>
+            <td class="Webprog">Webprogramozás<br>
                 203<br>
                 Németh Bence
             </td>
-            <td>Angol nyelv<br>
+            <td class="Angol">Angol nyelv<br>
                 212<br>
                 Almásiné Jobbágy Nóra Katalin
             </td>
-            <td>Osztályfőnöki<br>
+            <td class="Oszifo">Osztályfőnöki<br>
                 103<br>
                 Dr Takácsné menyhért Éva Judit
             </td>
-            <td>Matematika<br>
+            <td class="Matek">Matematika<br>
                 103<br>
                 Dr Takácsné menyhért Éva Judit
             </td>
           </tr>
           <tr>
             <td>3. Óra<br> 9:50-10:35</td>
-            <td>Szakmai Angol<br>
+            <td class="Angol">Szakmai Angol<br>
                 212<br>
                 Almásiné Jobbágy Nóra Katalin
             </td>
-            <td>Webprogramozás<br>
+            <td class="Webprog">Webprogramozás<br>
                 203<br>
                 Németh Bence
             </td>
-            <td>Angol nyelv<br>
+            <td class="Angol">Angol nyelv<br>
                 212<br>
                 Almásiné Jobbágy Nóra Katalin
             </td>
-            <td>Magyar nyelv<br>
+            <td class="Magyar">Magyar nyelv<br>
                 103<br>
                 Szalma Anna Mária
             </td>
-            <td>Matematika<br>
+            <td class="Matek">Matematika<br>
                 103<br>
                 Dr Takácsné menyhért Éva Judit
             </td>
           </tr>
           <tr>
             <td>4. Óra<br> 10:45-11:30</td>
-            <td>Szakmai Angol<br>
+            <td class="Angol">Szakmai Angol<br>
                 212<br>
                 Almásiné Jobbágy Nóra Katalin
             </td>
-            <td>Asztali alkalmazások<br>
+            <td class="Asztalialk">Asztali alkalmazások<br>
                 113<br>
                 Paár Norbert
             </td>
-            <td>Történelem<br>
+            <td class="Tori">Történelem<br>
                 103<br>
                 Takács Gábor
             </td>
-            <td>Magyar nyelv<br>
+            <td class="Magyar">Magyar nyelv<br>
                 103<br>
                 Szalma Anna Mária
             </td>
-            <td>Magyar nyelv<br>
+            <td class="Magyar">Magyar nyelv<br>
                 103<br>
                 Szalma Anna Mária
             </td>
           </tr>
           <tr>
             <td>5. Óra<br> 11:40-12:25</td>
-            <td>Adatbázis-kezelés<br>
+            <td class="Adatbase">Adatbázis-kezelés<br>
                 301<br>
                 Takács István
             </td>
-            <td>Asztali alkalmazások<br>
+            <td class="Asztalialk">Asztali alkalmazások<br>
                 113<br>
                 Paár Norbert
             </td>
-            <td>Állampolgári ismeretek<br>
+            <td class="Tori">Állampolgári ismeretek<br>
                 103<br>
                 Takács Gábor
             </td>
-            <td>Angol nyelv<br>
+            <td class="Angol">Angol nyelv<br>
                 114<br>
                 Almásiné Jobbágy Nóra Katalin
             </td>
-            <td>Testnevelés<br>
+            <td class="Tesi">Testnevelés<br>
                 tornaterem<br>
                 Nagy Tibor
             </td>
           </tr>
           <tr>
             <td>6. Óra<br> 12:45-13:30</td>
-            <td>Szoftvertesztelés<br>
+            <td class="Szoftver">Szoftvertesztelés<br>
                 203<br>
                 Szilágyi Bertalan
             </td>
-            <td>Asztali alkalmazások<br>
+            <td class="Asztalialk">Asztali alkalmazások<br>
                 113<br>
                 Paár Norbert
             </td>
-            <td>Magyar nyelv<br>
+            <td class="Magyar">Magyar nyelv<br>
                 103<br>
                 Szalma Anna Mária
             </td>
@@ -203,12 +243,12 @@
           </tr>
           <tr>
             <td>7. Óra<br> 13:35-14:20</td>
-            <td>Szoftvertesztelés<br>
+            <td class="Szoftver">Szoftvertesztelés<br>
                 203<br>
                 Szilágyi Bertalan
             </td>
             <td></td>
-            <td>Matematika<br>
+            <td class="Matek">Matematika<br>
                 103<br>
                 Dr Takácsné menyhért Éva Judit
             </td>
